@@ -1,0 +1,38 @@
+version: "3.3"
+services:
+  lcd:
+    image: billboard:latest
+    container_name: lcd
+    expose:
+      - "1317"
+    command: billboardcli rest-server --laddr tcp://0.0.0.0:1317 --trust-node --node ${RPC}
+    restart: always
+
+  api:
+    build: .
+    container_name: api
+    expose:
+      - "8080"
+    links:
+      - lcd:lcd
+    env_file:
+      .env
+    command: server
+    restart: always
+
+  web:
+    image: nginx:alpine
+    container_name: frontend
+    ports:
+      - "8080:8080"
+    links:
+      - lcd:lcd
+      - api:api
+    volumes:
+      - "./frontend/dist:/usr/share/nginx/html"
+      - "./nginx/logs:/var/log/nginx"
+      - "./nginx/conf:/etc/nginx/conf.d/"
+    restart: always
+    depends_on:
+      - lcd
+      - api
