@@ -1,0 +1,11 @@
+name: "Easy Defi"
+author: "Realworld2020"
+category: defi
+description: 热烈庆祝人气Defi项目长亭Swap和全网最具影响力的理财产品长亭Bank联动公测！在长亭Bank里，你可以通过抵押PandaToken来获得FLAG！
+value: 100
+
+flags:
+    - flag{uoApkrwLR7cN0ZwS1vpY}
+tags:
+    - flash loan 
+    - uniswap
