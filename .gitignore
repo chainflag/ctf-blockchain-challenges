@@ -1,4 +1,5 @@
 .DS_Store
+.idea/
 .ctf/
 __pycache__/
 *.py[cod]
