@@ -1,0 +1,11 @@
+name: "billboard"
+author: "RealWorldCTF2020"
+category: chain
+description: Welcome to the billboard, you can post an advertisement on the billboard chain, and the more coin you deposit the higher your advertisement ranking will be. Goal:Send a successful CaptureTheFlag type transaction.
+value: 300
+
+flags:
+    - rwctf{7hi$1S@C4ChE_l1FeCyc13_vUl_1n_Co5m0S5dk}
+tags:
+    - Cosmos SDK
+    - cache
