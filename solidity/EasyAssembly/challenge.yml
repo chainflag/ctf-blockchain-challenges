@@ -2,7 +2,7 @@ name: "EasyAssembly"
 author: "qwb2020"
 category: solidity
 description: Your goal is to emit SendFlag event
-value: 100
+value: 200
 
 flags:
     - flag{B10ckCha1n5_4S5embly_Is_S0_E4sY_pikapika~}
