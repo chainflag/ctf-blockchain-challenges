@@ -7,7 +7,7 @@ RUN sed -i "s/http:\/\/archive.ubuntu.com/http:\/\/mirrors.aliyun.com/g" /etc/ap
 RUN pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple pycryptodome web3 py-solc-x
 RUN pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple sty
 RUN pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple tqdm
-RUN pip3 install colorfulpanda
+RUN pip3 install colorfulpanda==0.4
 
 #RUN python3 -m solcx.install v0.5.10
 #RUN python3 -m solcx.install v0.6.6
