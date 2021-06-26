@@ -1,0 +1,11 @@
+name: "BoxGame"
+author: "华为鲲鹏计算场2020"
+category: solidity
+description: Your goal is to emit ForFlag(address addr) event
+value: 200
+
+flags:
+    - flag{0h_Fantansitic_Congratulation_t0_U_to_master_bytec0de}
+tags:
+    - create2
+    - sandbox
