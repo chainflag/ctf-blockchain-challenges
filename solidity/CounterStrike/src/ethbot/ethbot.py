@@ -30,7 +30,7 @@ Game environment: Ropsten testnet
 Option 1, get an account which will be used to deploy the contract;
 Before option 2, please transfer some eth to this account (for gas);
 Option 2, the robot will use the account to deploy the contract for the problem;
-Option 3, use this option to obtain the flag after the event is triggered.
+Option 3, use this option to obtain the flag after set power_state == false.
 You can finish this challenge in a lot of connections.
 '''
 TOPIC = 'SendFlag'
@@ -170,12 +170,6 @@ elif choice=='3':
     res = check_if_has_topic(addr, tx_hash, CONT_IF_EasyBomb , TOPIC)
     #print(res)
     if res:
-        team_token = input("[-]input your team token: ").strip()
-        assert len(team_token) == 32 and team_token.startswith('icq')
-        flag = getflag(seed,team_token)
-        with open("address.txt",'a') as f:
-            f.write(tx_hash + ' ' + team_token + ' ' + flag)
-            f.write('\n')
         print("[+]flag:"+flag)
     else:
         print("[+]sorry, it seems that you have not solved this~~~~")
