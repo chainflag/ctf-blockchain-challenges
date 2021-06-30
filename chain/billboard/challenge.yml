@@ -1,7 +1,28 @@
 name: "billboard"
 author: "RealWorldCTF2020"
 category: chain
-description: Welcome to the billboard, you can post an advertisement on the billboard chain, and the more coin you deposit the higher your advertisement ranking will be. Goal:Send a successful CaptureTheFlag type transaction.
+description: | 
+    Welcome to the billboard, you can post an advertisement on the billboard chain, and the more coin you deposit the higher your advertisement ranking will be.  
+    Goal: Send a successful CaptureTheFlag type transaction.  
+    [Attachment](https://github.com/iczc/billboard/archive/refs/tags/v1.0.0.zip)
+    #### Deploy challenge
+    ```bash
+    git clone https://github.com/iczc/billboard.git
+    cd deploy
+    docker-compose up
+    ```
+    RPC: 127.0.0.1:26657 playground: 127.0.0.1:80
+    #### Instruction
+    1. Add player private key  
+    ```
+    echo "your mnemonic here" | billboardcli keys add $KEY --recover`
+    ```
+    2. Post an advertisement
+    ```
+    billboardcli tx billboard create-advertisement $ID $CONTENT --from $KEY --chain-id mainnet --fees 10ctc --node $RPC
+    ```
+
+    mnemonic: chief control turn hurt dance system focus enjoy nasty draw cash rose boring example cause venture neither bind rack seven misery until exhibit hood
 value: 300
 
 flags:
