@@ -1,0 +1,7 @@
+contract: babybank
+author: "QWB2019"
+description: Get the flag after the event is emitted
+
+flag: flag{placeholder}
+
+tags: ["Reentrancy"]

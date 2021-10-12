@@ -1,0 +1,11 @@
+contract: challenge
+author: "N1CTF"
+description: Hack the smart contract and execute the winnerSubmit function
+
+flag: flag{placeholder}
+
+constructor:
+  args: [10000000, "challenge", "challenge"]
+  value: 1000
+
+tags: ["Reentrancy"]
