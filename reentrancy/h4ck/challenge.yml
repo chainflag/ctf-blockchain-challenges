@@ -6,6 +6,8 @@ flag: flag{placeholder}
 
 constructor:
   args: [10000000, "challenge", "challenge"]
-  value: 1000
+  value: 0
+
+solved_event: Win
 
 tags: ["Reentrancy"]
