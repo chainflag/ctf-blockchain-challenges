@@ -2,7 +2,7 @@ contract: babybank
 author: "QWB2019"
 description: Get the flag after payforflag event is emitted
 
-flag: flag{placeholder}
+flag: flag{1q2w3e4razsxdcfv}
 
 solved_event: payforflag
 
