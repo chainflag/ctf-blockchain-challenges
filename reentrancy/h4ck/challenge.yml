@@ -6,7 +6,7 @@ flag: flag{placeholder}
 
 constructor:
   args: [10000000, "challenge", "challenge"]
-  value: 0
+  gas: 750000
 
 solved_event: Win
 

@@ -4,6 +4,9 @@ description: Get the flag after payforflag event is emitted
 
 flag: flag{1q2w3e4razsxdcfv}
 
+constructor:
+  gas: 400000
+
 solved_event: payforflag
 
 tags: ["Reentrancy"]
