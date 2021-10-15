@@ -1,10 +1,9 @@
-name: "EasyAssembly"
+contract: "EasyAssembly"
 author: "qwb2020"
-category: solidity
 description: Your goal is to emit SendFlag event
-value: 200
 
-flags:
-    - flag{B10ckCha1n5_4S5embly_Is_S0_E4sY_pikapika~}
-tags:
-    - create2
+flag: flag{B10ckCha1n5_4S5embly_Is_S0_E4sY_pikapika~}
+
+solved_event: SendFlag
+
+tags: ["create2"]
