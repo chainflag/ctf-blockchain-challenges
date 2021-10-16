@@ -1,6 +1,8 @@
 contract: challenge
 author: "N1CTF"
-description: Hack the smart contract and execute the winnerSubmit function
+description: |
+  Hack the smart contract and execute the winnerSubmit function
+  0xe2d6d8808087d2e30eadf0acb67708148dbee0c0@kovan
 
 flag: flag{placeholder}
 
@@ -9,5 +11,6 @@ constructor:
   gas: 750000
 
 solved_event: Win
+deployed_addr: 0xe2d6d8808087d2e30eadf0acb67708148dbee0c0  # https://kovan.etherscan.io/address/0xe2d6d8808087d2e30eadf0acb67708148dbee0c0
 
 tags: ["Reentrancy"]

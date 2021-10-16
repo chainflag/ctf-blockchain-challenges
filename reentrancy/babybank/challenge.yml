@@ -1,12 +1,15 @@
 contract: babybank
 author: "QWB2019"
-description: Get the flag after payforflag event is emitted
+description: | 
+  Get the flag after payforflag event is emitted
+  0xd630cb8c3bbfd38d1880b8256ee06d168ee3859c@ropsten
 
 flag: flag{1q2w3e4razsxdcfv}
 
 constructor:
   gas: 400000
 
-solved_event: payforflag
+solved_event: sendflag
+deployed_addr: 0xd630cb8c3bbfd38d1880b8256ee06d168ee3859c  # https://ropsten.etherscan.io/address/0xd630cb8c3bbfd38d1880b8256ee06d168ee3859c
 
 tags: ["Reentrancy"]
