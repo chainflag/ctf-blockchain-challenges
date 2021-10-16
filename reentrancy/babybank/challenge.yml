@@ -1,5 +1,5 @@
 contract: babybank
-author: "QWB2019"
+author: "QWB 2019"
 description: | 
   Get the flag after payforflag event is emitted
   0xd630cb8c3bbfd38d1880b8256ee06d168ee3859c@ropsten
