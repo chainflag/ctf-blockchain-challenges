@@ -1,9 +1,12 @@
+author: "QWB 2020"
 contract: "EasyAssembly"
-author: "qwb2020"
 description: Your goal is to emit SendFlag event
 
 flag: flag{B10ckCha1n5_4S5embly_Is_S0_E4sY_pikapika~}
 
+constructor:
+  gas: 450000
+
 solved_event: SendFlag
 
-tags: ["create2"]
+tags: ["create2", "padding"]

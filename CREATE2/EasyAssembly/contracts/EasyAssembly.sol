@@ -3,7 +3,7 @@ pragma solidity ^0.5.10;
 contract EasyAssembly {
     event SendFlag(address addr);
 
-    // uint randomNumber = RN;
+    uint randomNumber = 0;
     bytes32 private constant ownerslot = keccak256('Welcome to qwb!!! You will find this so easy ~ Happy happy :D');
 
     bytes32[] public puzzle;
