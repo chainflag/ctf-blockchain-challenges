@@ -1,6 +1,4 @@
-name: "billboard"
-author: "RealWorldCTF2020"
-category: chain
+author: "RealWorldCTF 2020"  # https://github.com/iczc/billboard
 description: | 
     Welcome to the billboard, you can post an advertisement on the billboard chain, and the more coin you deposit the higher your advertisement ranking will be.  
     Goal: Send a successful CaptureTheFlag type transaction.  
@@ -24,9 +22,6 @@ description: |
 
     mnemonic: chief control turn hurt dance system focus enjoy nasty draw cash rose boring example cause venture neither bind rack seven misery until exhibit hood
 
-value: 300
+flag: rwctf{7hi$1S@C4ChE_l1FeCyc13_vUl_1n_Co5m0S5dk}
 
-flags:
-    - rwctf{7hi$1S@C4ChE_l1FeCyc13_vUl_1n_Co5m0S5dk}
-tags:
-    - Cosmos SDK
+tags: ["Cosmos SDK"]
