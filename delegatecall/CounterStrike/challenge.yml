@@ -1,7 +1,10 @@
-contract: "Counter-Strike"
-author: "工行2020"
+author: "pandatea"
+contract: "Setup"
 description: 发现个大炸弹，受累把它电源关了。
 
 flag: flag{CoUnt3R-$TrIKe_W1N}
+
+constructor:
+  args: ["0x000000000000666c61677b646f6e4c65745572447265616d4265447265616d7d"]
 
 tags: ["delegatecall"]

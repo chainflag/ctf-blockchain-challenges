@@ -1,9 +1,6 @@
 pragma solidity ^0.5.10;
 
-contract Launcher{
-    uint256 public deadline;
-    function setdeadline(uint256 _deadline) public {}
-}
+import "./Launcher.sol";
 
 contract EasyBomb{
     bool private hasExplode = false; 
