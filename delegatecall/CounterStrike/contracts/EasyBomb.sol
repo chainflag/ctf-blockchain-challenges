@@ -33,7 +33,6 @@ contract EasyBomb{
         launcher = Launcher(launcher_address);
         require(block.number < launcher.deadline());
         hasExplode = true;
-        selfdestruct(msg.sender);
         _;
     }
 
