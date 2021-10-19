@@ -1,0 +1,1 @@
+- https://oshawk.uk/Writeups/Secret+Store
