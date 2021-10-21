@@ -1,0 +1,6 @@
+author: "pikachu"
+description: 简单的EVM加密
+
+flag: flag{ETH_TEA_ENC_to_ok!}
+
+tags: ["EVM", "crypto"]
