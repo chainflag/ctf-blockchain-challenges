@@ -1,0 +1,10 @@
+author: "华为云安全场"
+contract: EthEnc
+description: Get the flag after OhSendFlag event is emitted
+
+flag: flag{placeholder}
+
+show_source: False
+solved_event: OhSendFlag
+
+tags: ["reverse", "crypto"]
