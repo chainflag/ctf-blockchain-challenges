@@ -1,0 +1,11 @@
+author: "ByteCTF 2019"  # https://github.com/beafb1b1/challenges/tree/master/bytectf/hf_blockchain_bibi
+contract: hf
+description: 0x62f1173e0fb4d481114d389dc8e0dea65e942735@ropsten
+
+flag: flag{fate_stay_night_day_and_day_babilon}
+
+show_source: False
+solved_event: SendFlag
+deployed_addr: 0x62f1173e0fb4d481114d389dc8e0dea65e942735  # https://ropsten.etherscan.io/address/0x62f1173e0fb4d481114d389dc8e0dea65e942735
+
+tags: ["reverse"]
