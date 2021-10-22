@@ -1,0 +1,11 @@
+author: "ByteCTF 2019"  # https://github.com/beafb1b1/challenges/tree/master/bytectf/bet_blockchain_bibi
+contract: bet
+description: 0x30d0a604d8c90064a0a3ca4beeea177eff3e9bcd@ropsten
+
+flag: flag{bet_f0r+f991jn_34-000}
+
+show_source: False
+solved_event: SendFlag
+deployed_addr: 0x30d0a604d8c90064a0a3ca4beeea177eff3e9bcd  # https://ropsten.etherscan.io/address/0x30d0a604d8c90064a0a3ca4beeea177eff3e9bcd
+
+tags: ["reverse"]

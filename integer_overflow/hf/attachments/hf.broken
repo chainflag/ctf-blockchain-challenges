@@ -1,0 +1,15 @@
+
+...
+	event SendFlag(string b64email);
+    
+    constructor()public{
+        owner = msg.sender;
+    }
+    
+    function payforflag(string b64email) public {
+        require(balanceOf[msg.sender] >= 100000);
+        balanceOf[msg.sender]=0;
+        owner.transfer(address(this).balance);
+        emit SendFlag(b64email);
+    }
+...
