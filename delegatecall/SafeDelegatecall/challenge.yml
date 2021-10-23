@@ -1,0 +1,10 @@
+contract: "SafeDelegatecall"
+author: "第五空间线下2020"
+description: Can delegatecall be safe?
+
+flag: flag{D31eg4teC4LL_MAy_Be_5afe_In_50me_C4se!}
+
+show_source: True
+solved_event: SendFlag
+
+tags: ["delegatecall", "fifth"]

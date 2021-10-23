@@ -1,0 +1,10 @@
+author: "rctf2021"
+contract: EasyFJump
+description: Your goal is to emit ForFlag(address addr)
+
+flag: flag{Easy_lcgJump_C0ngr4tulate_t0_U}
+
+show_source: False
+solved_event: ForFlag
+
+tags: ["reverse", "crypto"]
