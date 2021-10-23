@@ -1,6 +1,6 @@
 author: "QWB 2019"  # https://github.com/beafb1b1/challenges/tree/master/qwb/2019_crypto_babybank
 contract: babybank
-description: |
+description: | 
   Get the flag after payforflag event is emitted
   0xd630cb8c3bbfd38d1880b8256ee06d168ee3859c@ropsten
 

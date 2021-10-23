@@ -1,4 +1,4 @@
-author: "rctf2021"
+author: "RTCF 2021"
 contract: EasyFJump
 description: Your goal is to emit ForFlag(address addr)
 
