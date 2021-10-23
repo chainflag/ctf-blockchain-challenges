@@ -5,7 +5,7 @@ contract SafeDelegatecall {
     address private owner;
     bytes4 internal constant SET = bytes4(keccak256('fifth(uint256)'));
     event SendFlag(address addr);
-    uint randomNumber = RN;
+    uint randomNumber = 0;
     
     struct Func {
         function() internal f;
