@@ -1,0 +1,12 @@
+author: "Balsn CTF 2019"  # https://github.com/x9453/my-ctf-challenges/tree/master/balsn-ctf-2019/Bank
+contract: "Bank"
+description: Again, as those ctfs did in the past, we also implemented our 100% secure bank system, but on blockchain this time.
+
+flag: Balsn{b6ce1437414d6fdcfcc783bcee906389b5a1a8f0}
+
+constructor:
+  gas: 450000
+
+solved_event: SendFlag
+
+tags: ["uninitialized storage pointer", "arbitrary writing"]
