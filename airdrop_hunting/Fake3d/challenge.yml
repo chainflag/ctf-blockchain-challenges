@@ -1,0 +1,13 @@
+author: "BCTF 2018"
+contract: Fake3D
+description: |
+  Welcome to fake3D game! There are airdrops for you, but you have to pass the turning test first! Flag is cheaper here, and also sent to your email. This game is at 0x4082cC8839242Ff5ee9c67f6D05C4e497f63361a in Ropsten network.
+  https://ropsten.etherscan.io/address/0x4082cc8839242ff5ee9c67f6d05c4e497f63361a#code
+
+flag: BCTF{0nLy_b143_A66re33_c4N_b3at_f4ke3D}
+
+show_source: False
+solved_event: FLAG
+deployed_addr: 0x4082cC8839242Ff5ee9c67f6D05C4e497f63361a  # https://ropsten.etherscan.io/address/0x4082cC8839242Ff5ee9c67f6D05C4e497f63361a
+
+tags: ["airdrop hunting"]
