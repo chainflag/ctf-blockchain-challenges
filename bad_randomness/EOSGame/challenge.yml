@@ -1,0 +1,12 @@
+author: "BCTF 2018"
+contract: EOSGame
+description: |
+  Have you ever played eos.win? It's quite easy to get eos tokens here! Submite the base64 code of your email address to the CaptureTheFlag(string b64email) fucntion when you have enough EOS. This contract is at 0x804d8B0f43C57b5Ba940c1d1132d03f1da83631F in Ropsten network.
+  https://ropsten.etherscan.io/address/0x804d8b0f43c57b5ba940c1d1132d03f1da83631f#code
+
+flag: BCTF{y0u_c4n_PlAy_r34L_e0S_D0t_w1n_n0W}
+
+solved_event: FLAG
+deployed_addr: 0x804d8b0f43c57b5ba940c1d1132d03f1da83631f  # https://ropsten.etherscan.io/address/0x804d8b0f43c57b5ba940c1d1132d03f1da83631f
+
+tags: ["random"]
