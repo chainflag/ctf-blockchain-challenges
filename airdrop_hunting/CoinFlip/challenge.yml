@@ -1,0 +1,14 @@
+author: "RoarCTF 2019"
+contract: P_Bank
+description: |
+  1. HoneyLock
+  2. address :0xF60ADeF7812214eBC746309ccb590A5dBd70fc21 on ropsten.
+  3. call CaptureTheFlag with base64(your email),you will receive flag.
+
+
+flag: flag{placeholder}
+
+solved_event: FLAG
+deployed_addr: 0xf60adef7812214ebc746309ccb590a5dbd70fc21  # https://ropsten.etherscan.io/address/0xf60adef7812214ebc746309ccb590a5dbd70fc21
+
+tags: ["airdrop hunting"]

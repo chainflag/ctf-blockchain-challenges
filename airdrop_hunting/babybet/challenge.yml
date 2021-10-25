@@ -1,0 +1,11 @@
+author: "QWB 2019"
+contract: babybet
+description: 0x5d1beefd4de611caff204e1a318039324575599a@ropsten
+
+flag: flag{fj384h19vxz72345}
+
+show_source: False
+solved_event: sendflag
+deployed_addr: 0x5d1beefd4de611caff204e1a318039324575599a  # https://ropsten.etherscan.io/address/0x5d1beefd4de611caff204e1a318039324575599a
+
+tags: ["airdrop hunting"]
