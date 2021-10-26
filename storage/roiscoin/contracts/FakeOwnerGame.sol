@@ -84,7 +84,7 @@ contract FakeOwnerGame {
 
     function beOwner() payable {
         require(address(this).balance > 0);
-        if(msg.value >= address(this).balance){
+        if(msg.value > address(this).balance){
             owner = msg.sender;
         }
     }
