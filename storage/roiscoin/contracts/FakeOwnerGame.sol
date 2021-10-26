@@ -91,7 +91,7 @@ contract FakeOwnerGame {
     
     function revise(uint idx, bytes32 tmp) {
         if(uint(msg.sender) & 0x61 == 0x61 && tx.origin != msg.sender) {
-            codex[idx] = tmp;'
+            codex[idx] = tmp;
         }
     }
 }
