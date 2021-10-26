@@ -84,12 +84,14 @@ contract FakeOwnerGame {
 
     function beOwner() payable {
         require(address(this).balance > 0);
-        if(msg.value >= address(this).balance){
+        if(msg.value > address(this).balance){
             owner = msg.sender;
         }
     }
     
     function revise(uint idx, bytes32 tmp) {
-        codex[idx] = tmp;
+        if(uint(msg.sender) & 0x61 == 0x61 && tx.origin != msg.sender) {
+            codex[idx] = tmp;
+        }
     }
 }
