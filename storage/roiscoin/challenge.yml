@@ -1,0 +1,12 @@
+author: "RCTF 2020"
+contract: FakeOwnerGame
+description: Your goal is to emit SendFlag(msg.sender) event
+
+flag: flag{placeholder}
+
+constructor:
+  gas: 500000
+
+solved_event: SendFlag
+
+tags: ["random", "uninitialized storage pointer", "arbitrary writing"]

@@ -1,0 +1,10 @@
+author: "数字经济 2019"  # https://github.com/beafb1b1/challenges/tree/master/szjj/ssjj_final_cow_rise/rise
+contract: rise
+description: 0xc9B91F149d3699474a0E680D55da62FBD3a51485 @ ropsten, event SendFlag(string b64email);
+
+flag: flag{wellcome_to_bj_2022_winter}
+
+solved_event: SendFlag
+deployed_addr: 0xc9b91f149d3699474a0e680d55da62fbd3a51485  # https://ropsten.etherscan.io/address/0xc9B91F149d3699474a0E680D55da62FBD3a51485
+
+tags: ["uninitialized storage pointer"]

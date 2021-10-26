@@ -8,4 +8,4 @@ show_source: False
 solved_event: SendFlag
 deployed_addr: 0x62f1173e0fb4d481114d389dc8e0dea65e942735  # https://ropsten.etherscan.io/address/0x62f1173e0fb4d481114d389dc8e0dea65e942735
 
-tags: ["reverse"]
+tags: ["reverse", "uninitialized storage pointer"]

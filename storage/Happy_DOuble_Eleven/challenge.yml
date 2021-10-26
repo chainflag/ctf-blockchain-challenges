@@ -1,0 +1,11 @@
+author: "XCTF 2019"
+contract: "Happy_DOuble_Eleven"
+description: 0x168892cb672A747F193eb4acA7b964bfb0aA6476@ropsten, event pikapika_SendFlag(string b64email);
+
+flag: flag{placeholder}
+
+show_source: False
+solved_event: pikapika_SendFlag
+deployed_addr: 0x168892cb672A747F193eb4acA7b964bfb0aA6476  # https://ropsten.etherscan.io/address/0x168892cb672a747f193eb4aca7b964bfb0aa6476
+
+tags: ["arbitrary writing", "reverse"]
