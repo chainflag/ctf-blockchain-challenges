@@ -1,0 +1,12 @@
+author: "数字经济 2019"  # https://github.com/beafb1b1/challenges/blob/master/szjj/ssjj_final_cow_rise/cow
+contract: cow
+description: event SendFlag(string b64email);
+
+flag: flag{mew_m3w_m33_uuuuuuuu}
+
+constructor:
+  gas: 350000
+
+solved_event: SendFlag
+
+tags: ["uninitialized storage pointer", "wrong constructor name", "integer overflow"]

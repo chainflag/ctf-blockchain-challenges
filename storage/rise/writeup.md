@@ -1,0 +1,1 @@
+- https://github.com/beafb1b1/challenges/blob/master/szjj/ssjj_final_cow_rise/rise/wp.docx
