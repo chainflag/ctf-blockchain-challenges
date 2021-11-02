@@ -1,0 +1,10 @@
+author: "*CTF 2019"
+contract: "Setup"
+description: Your aim is to make the contract balance be 0
+
+flag: flag{placeholder}
+
+constructor:
+  value: 1
+
+tags: ["sandbox", "delegatecall"]
