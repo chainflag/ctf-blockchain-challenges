@@ -1,0 +1,11 @@
+author: "QWB 2020"
+contract: "EasySandbox"
+description: Your aim is to make the contract balance be 0
+
+flag: flag{placeholder}
+
+constructor:
+  value: 1
+  gas: 450000
+
+tags: ["sandbox", "delegatecall"]
