@@ -1,6 +1,6 @@
 author: "QWB 2020"
 contract: "EasySandbox"
-description: Your aim is to make the contract balance be 0
+description: Drain the challenge contract's balance
 
 flag: flag{placeholder}
 
