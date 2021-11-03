@@ -130,4 +130,9 @@ contract StArNDBOX{
         (success, _) = _addr.delegatecall("");
         require(success);
     }
+
+    // patch
+    function isSolved() public view returns (bool) {
+        return address(this).balance == 0;
+    }
 }

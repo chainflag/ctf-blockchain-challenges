@@ -1,5 +1,5 @@
 author: "*CTF 2019"
-contract: "Setup"
+contract: "StArNDBOX"
 description: Your aim is to make the contract balance be 0
 
 flag: flag{placeholder}
