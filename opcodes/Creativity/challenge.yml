@@ -7,3 +7,4 @@ flag: Balsn{a60f48896361c09fb13f74bf33f084dd5c497cf6}
 solved_event: SendFlag
 
 tags: ["create2", "delegatecall"]
+value: 300

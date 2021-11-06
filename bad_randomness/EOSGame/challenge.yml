@@ -10,3 +10,4 @@ solved_event: FLAG
 deployed_addr: 0x804d8b0f43c57b5ba940c1d1132d03f1da83631f  # https://ropsten.etherscan.io/address/0x804d8b0f43c57b5ba940c1d1132d03f1da83631f
 
 tags: ["random"]
+value: 100

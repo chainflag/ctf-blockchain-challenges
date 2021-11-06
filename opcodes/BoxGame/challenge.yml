@@ -11,3 +11,4 @@ constructor:
 solved_event: ForFlag
 
 tags: ["create2", "sandbox"]
+value: 200

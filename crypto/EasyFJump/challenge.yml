@@ -8,3 +8,4 @@ show_source: False
 solved_event: ForFlag
 
 tags: ["reverse", "crypto"]
+value: 200

@@ -11,3 +11,4 @@ solved_event: FLAG
 deployed_addr: 0xf60adef7812214ebc746309ccb590a5dbd70fc21  # https://ropsten.etherscan.io/address/0xf60adef7812214ebc746309ccb590a5dbd70fc21
 
 tags: ["airdrop hunting"]
+value: 100

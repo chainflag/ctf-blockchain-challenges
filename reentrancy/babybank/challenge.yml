@@ -14,3 +14,4 @@ solved_event: sendflag
 deployed_addr: 0xd630cb8c3bbfd38d1880b8256ee06d168ee3859c  # https://ropsten.etherscan.io/address/0xd630cb8c3bbfd38d1880b8256ee06d168ee3859c
 
 tags: ["reentrancy", "reverse"]
+value: 100

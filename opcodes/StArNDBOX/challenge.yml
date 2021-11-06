@@ -8,3 +8,4 @@ constructor:
   value: 1
 
 tags: ["sandbox", "delegatecall"]
+value: 200

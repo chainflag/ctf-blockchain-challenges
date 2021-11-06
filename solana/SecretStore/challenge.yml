@@ -27,3 +27,4 @@ description: |
 flag: flag{placeholder}
 
 tags: ["solana"]
+value: 200

@@ -9,3 +9,4 @@ constructor:
   gas: 450000
 
 tags: ["sandbox", "delegatecall"]
+value: 200

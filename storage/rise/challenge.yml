@@ -8,3 +8,4 @@ solved_event: SendFlag
 deployed_addr: 0xc9b91f149d3699474a0e680d55da62fbd3a51485  # https://ropsten.etherscan.io/address/0xc9B91F149d3699474a0E680D55da62FBD3a51485
 
 tags: ["uninitialized storage pointer"]
+value: 100

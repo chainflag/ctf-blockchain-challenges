@@ -9,3 +9,4 @@ solved_event: sendflag
 deployed_addr: 0x5d1beefd4de611caff204e1a318039324575599a  # https://ropsten.etherscan.io/address/0x5d1beefd4de611caff204e1a318039324575599a
 
 tags: ["airdrop hunting"]
+value: 100

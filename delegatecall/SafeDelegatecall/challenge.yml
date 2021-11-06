@@ -10,3 +10,4 @@ constructor:
 solved_event: SendFlag
 
 tags: ["delegatecall", "fifth"]
+value: 100

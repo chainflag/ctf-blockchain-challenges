@@ -8,3 +8,4 @@ show_source: False
 solved_event: OhSendFlag
 
 tags: ["reverse", "crypto"]
+value: 100

@@ -14,3 +14,4 @@ solved_event: Win
 deployed_addr: 0xe2d6d8808087d2e30eadf0acb67708148dbee0c0  # https://kovan.etherscan.io/address/0xe2d6d8808087d2e30eadf0acb67708148dbee0c0
 
 tags: ["reentrancy"]
+value: 200
