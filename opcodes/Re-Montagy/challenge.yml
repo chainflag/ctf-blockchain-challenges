@@ -1,0 +1,17 @@
+author: "RealWorldCTF 2020"
+description: | 
+  #### Background:
+  Hi there, I heard from my agent that many people ´_>` solved my challenge last year which was joyful. You might notice something when seeing this challenge name. And yes, last year's challenge was actually a part of this final art. A game started a year ago, lost between 0&1, come from the path and back through the shadow, will you catch the 'Montage' spirit? I'm waiting for you, from the past to the future.
+
+  -- A. Monica
+
+  #### provided files:
+  Montagy.sol: the target contract
+  Puzzle.sol: the contract deployed during newPuzzle
+
+  #### Goal:
+  Let the ETH balance of Montagy contract becomes 0.
+
+flag: rwctf{rE7uRn_2_FuTuR3_w1Th_1_cUp_f0_T_f70M_7He_P4s7_THATs_C4l13d_M0N74GY!}
+
+tags: ["JOP", "crypto", "reverse", "xhyumiracle"]
