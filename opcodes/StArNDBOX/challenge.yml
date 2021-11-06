@@ -1,0 +1,10 @@
+author: "*CTF 2021"
+contract: "StArNDBOX"
+description: Drain the challenge contract's balance
+
+flag: flag{placeholder}
+
+constructor:
+  value: 1
+
+tags: ["sandbox", "delegatecall"]

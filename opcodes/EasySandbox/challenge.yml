@@ -1,0 +1,11 @@
+author: "QWB 2020"
+contract: "EasySandbox"
+description: Drain the challenge contract's balance
+
+flag: flag{placeholder}
+
+constructor:
+  value: 1
+  gas: 450000
+
+tags: ["sandbox", "delegatecall"]

