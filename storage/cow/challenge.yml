@@ -5,7 +5,7 @@ description: event SendFlag(string b64email);
 flag: flag{mew_m3w_m33_uuuuuuuu}
 
 constructor:
-  gas: 350000
+  gas: 400000
 
 solved_event: SendFlag
 
