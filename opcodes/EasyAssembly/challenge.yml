@@ -6,6 +6,7 @@ flag: flag{B10ckCha1n5_4S5embly_Is_S0_E4sY_pikapika~}
 
 constructor:
   gas: 450000
+  value: 1
 
 solved_event: SendFlag
 
