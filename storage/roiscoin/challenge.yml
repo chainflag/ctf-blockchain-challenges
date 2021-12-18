@@ -5,7 +5,7 @@ description: Your goal is to emit SendFlag(msg.sender) event
 flag: flag{placeholder}
 
 constructor:
-  gas: 500000
+  gas: 550000
 
 solved_event: SendFlag
 
