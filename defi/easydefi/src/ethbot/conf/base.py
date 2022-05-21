@@ -12,7 +12,7 @@ gasPriceOfAddLiquidity = 60000000000
 
 est_gas = "1eth"
 
-providerOfNetwork = "https://ropsten.infura.io/v3/af5a1d6c6ae04585b340adc84718a3c4"
+providerOfNetwork = "https://ropsten.infura.io/v3/3fa341cc4f6f4c70b50fc59fa17bd107"
 
 
 ONEHUNDRED = 100000000000000000000
