@@ -1,0 +1,20 @@
+contract: Greeter # Challenge contract name(class name)
+
+# The description will be displayed when players nc to the challenge
+description: |
+  Alice:0x81376b9868b292a46a1c486d344e427a3088657fda629b5f4a647822d329cd6a
+  Bob:0x28cac318a86c8a0a6a9156c2dba2c8c2363677ba0514ef616592d81557e679b6
+  Calor:0x804cd8981ad63027eb1d4a7e3ac449d0685f3660d6d8b1288eb12d345ca2331d
+  Your goal is to make isSolved() function returns true!
+
+flag: chainflag{gral3ealt4slat7aiff4plis8coob}
+
+constructor:
+  args: ["0xb57c9b430ecc5b184f7ab285b8c9ca898e3e528c4668d136ee0fab03ae716f86"]
+  value: 0
+  gas: 3000000 # The default value is the response value of the eth_estimateGas JSON-RPC
+#show_source: False      # Show source option available by default, you need to set False for a reverse contract challenge
+
+#solved_event: SendFlag  # The default is to use isSolved() view function as solved checker, but emitted event checker is also supported
+
+#deployed_addr: 0xdac17f958d2ee523a2206206994597c13d831ec7  # Use a pre-deployed contract for all players instead of deploying individually
